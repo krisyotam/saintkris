@@ -1,0 +1,96 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    color: gray;
+}
+
+/* Styling the header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.headertext {
+    margin: 10px 0;
+}
+
+/* Styling the navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    color: rgb(167, 167, 167);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.article-box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.author, .date, .content {
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.content {
+    line-height: 1.6;
+    text-align: left;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}

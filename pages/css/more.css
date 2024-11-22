@@ -1,0 +1,136 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #f4f4f4; /* Light background for a modern look */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Uniform Header Styling */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.headertext {
+    margin-bottom: 15px;
+}
+
+.headertext h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+.headertext p {
+    color: #007bff;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Navigation Bar Styling */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px; /* Increase spacing for consistency */
+    font-size: 18px;
+}
+
+a {
+    color: #333; /* Dark gray for link text */
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #007bff; /* Blue color on hover for consistency */
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-left: 75px;
+}
+
+/* More Section Styling */
+.more-section {
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+}
+
+.more-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Categories Grid Styling */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    justify-content: center; /* Centers the grid items horizontally */
+    padding: 0 20px;
+}
+
+/* Category Card Styling */
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    height: 150px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Consistent Footer Styling */
+footer {
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff; /* White background */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+footer p {
+    font-size: 1em;
+    color: #333;
+}
+
+

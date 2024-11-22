@@ -1,0 +1,124 @@
+/* Global Styles */
+html, body {
+    margin: 0;
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    background-color: #f4f4f4; /* Light background for a cleaner, more modern look */
+    color: #333; /* Default text color */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the Header */
+header {
+    text-align: center; /* Center all inline and inline-block elements inside header */
+    padding: 20px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Header Text Styling */
+.headertext {
+    margin-bottom: 15px;
+}
+
+.headertext h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #333;
+}
+
+.headertext p {
+    color: #007bff; /* Primary blue color */
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* Styling the Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flex container to align list items in a row */
+}
+
+li {
+    margin: 0 15px; /* Add horizontal spacing between list items */
+    font-size: 18px; /* Increase font size for consistency */
+}
+
+a {
+    color: #333; /* Consistent link color */
+    font-size: 18px; 
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #007bff; /* Blue color on hover for consistency */
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px; /* Increase padding for consistency */
+}
+
+/* Article Box Styling */
+.article-box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.author, .date, .content {
+    margin: 0;
+    padding: 0;
+}
+
+.author {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.content {
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Consistent Footer Styling */
+footer {
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff; /* White background */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for footer */
+}
+
+footer p {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+
