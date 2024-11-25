@@ -6,29 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>About - Kris Yotam</title>
     <link rel="stylesheet" href="/pages/css/about.css"> <!-- Link to updated CSS -->
+    <link rel="stylesheet" href="/pages/css/style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header class="header">
-        <div class="headertext">
-            <img src="/assets/imgs/profile.png" class="profile-img" alt="Profile Image">
-            <h1>Saint Kris</h1>
-            <p>Israelite Apologetics</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/pages/html/about.html">ABOUT</a></li>
-                <li><a href="/pages/html/topics.html">TOPICS</a></li>
-                <li><a href="/pages/html/more.html">MORE</a></li>
-            </ul>
+        <nav class="nav">
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="window.location.href='/index.html'">Home</button>
+            <button class="nav-button" onclick="window.location.href='/pages/html/about.html'">About</button>
+          </div>
+          <h1 class="title">ABOUT</h1>
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="window.location.href='/pages/html/topics.html'">Topics</button>
+            <button class="nav-button" onclick="window.location.href='/contact.html'">Contact</button>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <main>
         <section class="about-section">
-            <h2>About Kris Yotam</h2>
-            <p class="intro">Welcome to my platform! I’m Kris Yotam, a passionate advocate of Israelite apologetics. This space is dedicated to exploring and understanding the deep-rooted truths of faith, history, and scripture.</p>
-            
             <div class="about-categories">
                 <!-- Category 1: My Journey -->
                 <section class="category">
@@ -53,19 +50,19 @@
                     <h3>Publications</h3>
                     <p>I have contributed to several articles and publications focusing on the intersection of Israelite traditions and Christian theology. These works aim to clarify misconceptions and bring to light the profound truths embedded in scripture.</p>
                 </section>
-                
-                <!-- Category 5: Contact -->
-                <section class="category contact">
-                    <h3>Contact</h3>
-                    <p>Feel free to get in touch with me! Whether you’re interested in discussing apologetics or have any questions, I’m happy to connect. Reach me at <a href="mailto:contact@krisyotam.com">contact@krisyotam.com</a>.</p>
-                </section>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2024 Kris Yotam. All rights reserved.</p>
-    </footer>
+    <!-- Footer -->
+    <!-- Your main content here -->
+    <div class="container">
+        <!-- Your main content here -->
+        <footer class="footer">
+          <a href="https://x.com/krisyotam" class="source-link">Kris Yotam (@krisyotam)</a>
+          <a href="https://github.com/krisyotam" class="source-link">Source</a>
+        </footer>
+    </div>
 </body>
 </html>
 

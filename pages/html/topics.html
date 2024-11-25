@@ -6,28 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Topics - Kris Yotam</title>
     <link rel="stylesheet" href="/pages/css/topics.css">
+    <link rel="stylesheet" href="/pages/css/style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header class="header">
-        <div class="headertext">
-            <img src="/assets/imgs/profile.png" class="profile-img" alt="Profile Image">
-            <h1>Saint Kris</h1>
-            <p>Isrealite Apologetics</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="/index.html">HOME</a></li>
-                <li><a href="/pages/html/about.html">ABOUT</a></li>
-                <li><a href="/pages/html/topics.html">TOPICS</a></li>
-                <li><a href="/pages/html/more.html">MORE</a></li>
-            </ul>
+        <nav class="nav">
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="window.location.href='/index.html'">Home</button>
+            <button class="nav-button" onclick="window.location.href='/pages/html/about.html'">About</button>
+          </div>
+          <h1 class="title">TOPICS</h1>
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="window.location.href='/pages/html/topics.html'">Topics</button>
+            <button class="nav-button" onclick="window.location.href='/contact.html'">Contact</button>
+          </div>
         </nav>
-    </header>
+      </header>
 
     <main>
         <section id="topics" class="topics-section">
-            <h2>Topics</h2>
-            <p>Explore various topics related to Isrealite apologetics and Christian teachings:</p>
             <ul class="topics-list">
                 <li><a href="#topic1">Breakdowns</a></li>
                 <li><a href="#topic2">Overcoming Temptation</a></li>
@@ -43,8 +41,12 @@
         <!-- Add more sections for each topic if needed -->
     </main>
 
-    <footer>
-        <p>&copy; 2024 Kris Yotam. All rights reserved.</p>
-    </footer>
+    <div class="container">
+        <!-- Your main content here -->
+        <footer class="footer">
+          <a href="https://x.com/krisyotam" class="source-link">Kris Yotam (@krisyotam)</a>
+          <a href="https://github.com/krisyotam" class="source-link">Source</a>
+        </footer>
+    </div>
 </body>
 </html>

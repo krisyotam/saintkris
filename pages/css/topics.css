@@ -7,62 +7,6 @@ html, body {
     font-family: 'Arial', sans-serif;
 }
 
-/* Uniform Header Styling */
-.header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff; /* White background for header */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
-
-.headertext {
-    margin-bottom: 15px;
-}
-
-.headertext h1 {
-    font-size: 2.5em;
-    margin: 0;
-    color: #333;
-}
-
-.headertext p {
-    color: #007bff;
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
-/* Navigation Bar Styling */
-nav {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-li {
-    margin: 0 15px; /* Increase spacing for a balanced look */
-    font-size: 18px; /* Consistent font size */
-}
-
-a {
-    color: #333; /* Dark gray for link text */
-    font-size: 18px; 
-    text-decoration: none;
-    transition: color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-a:hover {
-    color: #007bff; /* Blue color on hover for consistency */
-}
-
 /* Main Content Styling */
 main {
     display: flex;
@@ -124,24 +68,6 @@ main {
 .topics-list li a:hover {
     text-decoration: underline;
 }
-
-/* Consistent Footer Styling */
-footer {
-    width: 100%;
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #fff; /* White background */
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
-}
-
-footer p {
-    font-size: 1em;
-    color: #333;
-}
-
-
-
 
 
 

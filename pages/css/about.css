@@ -1,62 +1,9 @@
-html, body {
-    margin: 0;
-    height: 100%;
-    background-color: #f4f4f4; /* Light background for a cleaner, more modern look */
-    color: #333;
-    font-family: 'Arial', sans-serif;
-}
-
-/* Styling the header */
-.header {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff; /* White background for contrast */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
-}
-
-.headertext {
-    margin-bottom: 15px;
-}
-
-.headertext h1 {
-    font-size: 2.5em;
-    margin: 0;
-    color: #333;
-}
-
-.headertext p {
-    color: #007bff;
-    font-size: 1.2em;
-    margin: 5px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #007bff;
-}
-
 /* Main content styling */
 main {
     display: flex;
     justify-content: center;
+    align-items: center; /* Ensures vertical centering */
+    min-height: 100vh; /* Makes sure the main section takes up at least the full viewport height */
     padding: 30px;
     width: 100%;
 }
@@ -74,7 +21,7 @@ main {
 
 .about-section h2 {
     font-size: 2.5em;
-    color: #333;
+    color: var(--text-color);
     margin-bottom: 15px;
 }
 
@@ -88,13 +35,13 @@ main {
 /* About Categories */
 .about-categories {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 40px;
 }
 
 .category {
-    background-color: #fafafa; /* Light grey background */
+    background-color: #fafafa;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -102,8 +49,8 @@ main {
 }
 
 .category:hover {
-    transform: translateY(-5px); /* Slight lift effect on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .category h3 {
@@ -127,21 +74,3 @@ main {
 .contact a:hover {
     text-decoration: underline;
 }
-
-/* Footer */
-footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    color: black;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #fff;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for footer */
-}
-
-footer p {
-    font-size: 1em;
-    color: #333;
-}
-
