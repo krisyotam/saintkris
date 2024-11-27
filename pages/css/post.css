@@ -1,0 +1,142 @@
+/* General styling for the blog post layout */
+.content-wrapper {
+    display: flex;
+    gap: 20px; /* Space between post and sidebar */
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1; /* Ensure content grows to take available space */
+}
+
+/* Styling for the blog post container */
+.post-container {
+    flex: 3; /* The post takes up more space */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color); /* Add border to define edges */
+}
+
+/* Title of the blog post */
+.post-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Subtitle of the blog post */
+.post-subtitle {
+    font-size: 1.25rem;
+    color: var(--muted-color);
+    margin-bottom: 1.5rem;
+}
+
+.post-meta {
+    font-size: 0.875rem;
+    color: var(--muted-color);
+    margin-bottom: 1rem;
+}
+
+.post-body {
+    line-height: 1.6;
+}
+
+/* Navigation buttons in the header */
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+
+/* Styling for the sidebar (table of contents) */
+.sidebar-container {
+    flex: 1; /* Sidebar takes up less space */
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--border-color); /* Add border to define edges */
+}
+
+.table-of-contents h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.table-of-contents ul {
+    list-style: none;
+    padding: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 0.5rem;
+}
+
+.table-of-contents a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.table-of-contents a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure smooth scrolling when navigating ToC links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Responsive Layout Adjustments */
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Stack the content and sidebar on smaller screens */
+    }
+
+    .sidebar-container {
+        margin-top: 1rem; /* Space between the post and sidebar */
+    }
+
+    .nav-buttons {
+        flex-direction: column; /* Stack buttons on smaller screens */
+    }
+
+    .nav-button {
+        width: 100%; /* Make buttons full width on smaller screens */
+    }
+}
+
+/* Add space between the header and content */
+header {
+    margin-bottom: 2rem; /* Adds space between the header and the content */
+}
+
+/* Ensure content has minimum height to push footer to the bottom */
+.content-wrapper {
+    min-height: 70vh; /* Ensures content area takes up at least 70% of the viewport height */
+}
+
+.footerdiv {
+    margin-top: 4rem;
+}
+
+/* Push footer to the bottom of the page with extra space */
+footer {
+    margin-top: 4rem; /* Increased space between footer and content */
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+/* Footer link styles */
+footer .source-link {
+    color: var(--muted-color);
+    text-decoration: none;
+}
+
+footer .source-link:hover {
+    text-decoration: underline;
+}

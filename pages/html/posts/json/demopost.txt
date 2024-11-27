@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "name": "Author Name",
+    "title": "Title of the Post",
+    "date": "Publication Date",
+    "tags": ["Tag1", "Tag2", "Tag3"],
+    "subtitle": "A brief description or subtitle of the post.",
+    "description": "A short description of what the post is about."
+  },
+  "content": [
+    {
+      "section": "Introduction",
+      "subsections": [
+        {
+          "title": "Subsection Title 1",
+          "content": "Introduction content goes here."
+        },
+        {
+          "title": "Subsection Title 2",
+          "content": "Another introduction section content."
+        }
+      ]
+    },
+    {
+      "section": "Main Content Section 1",
+      "subsections": [
+        {
+          "title": "Subsection Title 1",
+          "content": "Content for the first subsection of the main section."
+        },
+        {
+          "title": "Subsection Title 2",
+          "content": "Content for another subsection of the main section."
+        }
+      ]
+    },
+    {
+      "section": "Main Content Section 2",
+      "subsections": [
+        {
+          "title": "Subsection Title 1",
+          "content": "Content for the first subsection of the second main section."
+        },
+        {
+          "title": "Subsection Title 2",
+          "content": "Content for another subsection of the second main section."
+        }
+      ]
+    },
+    {
+      "section": "Conclusion",
+      "subsections": [
+        {
+          "title": "Conclusion Title",
+          "content": "Content for the conclusion section."
+        },
+        {
+          "title": "Final Thoughts",
+          "content": "Any final thoughts or summary."
+        }
+      ]
+    }
+  ]
+}

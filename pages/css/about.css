@@ -1,76 +1,115 @@
-/* Main content styling */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Ensures vertical centering */
-    min-height: 100vh; /* Makes sure the main section takes up at least the full viewport height */
-    padding: 30px;
+/* About Page Container */
+.about-main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* About Section Header */
+.about-title {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+/* Name Card Styling */
+.name-card {
+    background-color: #fff;  /* White background */
+    color: #333;             /* Dark grey text */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    border-left: 6px solid #333;  /* Dark grey accent on the left */
 }
 
-/* About Section */
-.about-section {
-    width: 80%;
-    max-width: 1000px;
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 40px;
-}
-
-.about-section h2 {
-    font-size: 2.5em;
-    color: var(--text-color);
-    margin-bottom: 15px;
-}
-
-.intro {
-    font-size: 1.1em;
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 30px;
-}
-
-/* About Categories */
-.about-categories {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.category {
-    background-color: #fafafa;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.category:hover {
+/* Hover effect for Name Card */
+.name-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.category h3 {
-    font-size: 1.6em;
-    color: #007bff;
-    margin-bottom: 15px;
-}
-
-.category p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    color: #555;
-}
-
-.contact a {
-    color: #007bff;
-    text-decoration: none;
+/* Title for Name Card */
+.name-card .card-title {
+    font-size: 2rem;
+    color: #333;  /* Dark grey */
+    margin-bottom: 1rem;
+    text-align: center;
     font-weight: bold;
 }
 
-.contact a:hover {
+/* Description for Name Card */
+.name-card .card-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;  /* Medium grey text */
+    text-align: center;
+}
+
+/* Bold labels for name breakdown */
+.name-card .card-description strong {
+    font-weight: bold;
+    color: #000;  /* Black color for the name breakdown */
+}
+
+
+/* Styling the About Cards */
+.about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for each card */
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Title */
+.card-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Card Description */
+.card-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+footer .source-link {
+    color: var(--muted-color);
+    text-decoration: none;
+}
+
+footer .source-link:hover {
     text-decoration: underline;
 }

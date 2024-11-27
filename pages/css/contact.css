@@ -1,0 +1,96 @@
+/* General Styling for Contact Page */
+.contact-main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+/* Large Card Styling */
+.contact-card {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for the large card */
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Section Titles */
+.contact-card h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+/* Paragraph Styling */
+.contact-card p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+/* List Styling for Rules */
+.contact-card ul {
+    list-style-type: disc;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.contact-card ul li {
+    margin-bottom: 0.8rem;
+}
+
+/* Links Styling */
+.contact-card a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* Code Block Styling */
+.contact-card code {
+    background-color: #f5f5f5;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: var(--muted-color);
+}
+
+footer .source-link {
+    color: var(--muted-color);
+    text-decoration: none;
+}
+
+footer .source-link:hover {
+    text-decoration: underline;
+}
